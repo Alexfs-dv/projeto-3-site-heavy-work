@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavy Work</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div>
+        <!--UP SIDE BAR-->
+    <div class="upside-bar" id="upside-bar">
+        <div class="container p-1 upside">
+            <div class="row">
+                <div class="col-6" id="upsidebar-address">
+                    <i class="bi bi-cursor-fill"></i>
+                    Rua: Engenheiro Front End, 2023 - Bootstrap Icon - Ebac
+                </div>
+                <div class="col-6 social-media upsidebar-social d-flex justify-content-end">
+                    <a href="#">
+                        <i class="bi bi-telegram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--BARRA DE NAVEGAÇÃO-->
+    <header class="navbar navbar-expand-lg p-2" id="home">
+        <div class="container">
+            <h1 class="navbar-brand fs-1">Heavy work</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navigation">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#sobre-o-site" class="nav-link">
+                            <i class="bi bi-house-door"></i>    
+                            Sobre o site
+                        </a>
+                    </li>
+                    <div class="dropdown">
+                        <li class="nav-item" data-bs-toggler="dropdown">
+                            <a href="#direto-ao-ponto" data-bs-toggle="dropdown" class="dropdown-toggle nav-link">    
+                                <i class=" bi bi-box-arrow-in-right"></i>
+                                Direto ao ponto
+                            </a>    
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li class="dropdown-item">
+                                    <a href="#">Equipamentos pesados</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Equipamentos leves</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Materiais de construção</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Construtores</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Empresas de Engenharia</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#">Empresas de Arquitetura</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </div>
+                    <li class="nav-item">
+                        <a href="#quero-ser-parceiro" class="nav-link">
+                            <i class="bi bi-person-plus-fill"></i>    
+                            Quero ser parceiro
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#area-de-membro" class="nav-link">
+                            <i class="bi bi-person-vcard"></i>    
+                            Área de membro
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    </div>
+    <!--SEÇÃO HOME-->
+    <section class="out-header" id="about">
+        <div class="container">
+            <div class="row apresentacao">
+                <div class="col-6 apresentacao">
+                    <img src="./imagem/engenheiro-cartoon.png" alt="">
+                </div>
+                <div class="col-6 mt-5 texto-apresentacao">
+                    <div class="text-destac">
+                        <p class="text-destac-md">
+                            <span class="fw-bold">EXPERTISE</span> em <br><span class="text-destac-sm">TRABALHO PESADO</span>
+                        </p>
+                    </div>
+                    <p class="text-p mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis praesentium doloremque nam quod ipsum a dignissimos soluta aperiam? Repellat quo ullam beatae facere nihil distinctio nemo dolores ex doloremque fuga.
+                    </p>
+                    <button class="btn btn-1 mt-5" type="button" data-bs-toggle="modal" data-bs-target="#contact-modal" id="contact">
+                        Contate-nos
+                    </button>
+                    <button  class="btn btn-3 mt-5 ms-2" type="button">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SEÇÃO SOBRE O SITE-->
+    <section id="sobre-o-site" class="out-header p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 artigo-o-que-fazemos">
+                    <article class="card">
+                        <div class="card-body">
+                            <h3 class="card-title fc-yellow">O QUE NÓS FAZEMOS</h3>
+                            <p class="card-text pt-3">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum magnam animi, dignissimos optio enim atque nesciunt voluptatum quia aliquid tempore vitae quas corrupti quisquam aut officia eaque quidem, totam molestias?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet magni laborum distinctio consectetur nostrum iure quia dolor similique debitis facilis impedit ipsa fuga, atque porro, ullam accusamus quis illo excepturi!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat illo suscipit doloribus blanditiis. Eligendi ullam dolorum voluptatem, commodi omnis repellat maiores asperiores ut voluptatum praesentium, est nisi? Consequuntur, unde commodi?
+                            </p>
+                            <button class="btn btn-5 " type="button" data-bs-toggle="modal" data-bs-target="#contact-modal">
+                                Contate-nos
+                            </button>
+                            <div class="modal" data-bs-backdrop="static" id="contact-modal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-11 p-3 formulario" id="formulario">
+                                                    <div class="modal-header">
+                                                        <h5>Contate-nos</h5>
+                                                        <button type="button" class="btn-close d-flex justify-content-end" id="btn-close" data-bs-dismiss="modal"></button>
+                                                    </div>
+                                                    <!--FORMULÁRIO-->
+                                                    <form class="pt-3" id="form">
+                                                        <div>
+                                                            <label for="nome" class="form-label">Nome:</label>
+                                                            <input type="text" class="form-control" id="nome" name="nome">
+                                                        </div>
+                                                        <div>
+                                                            <label for="email" class="form-label">Email:</label>
+                                                            <input type="email" class="form-control" id="email" name="email">
+                                                        </div>
+                                                        <div>
+                                                            <label for="telefone" class="form-label">Telefone:</label>
+                                                            <input type="tel" class="form-control" id="telefone" name="telefone">
+                                                        </div>
+                                                        <div>
+                                                            <label for="mensagem" class="form-label">Mensagem:</label>
+                                                            <textarea id="mensagem" class="form-control"></textarea>
+                                                        </div>
+                                                        <button type="submit" class="btn mt-3 btn-2">Enviar</button>
+                                                    </form>
+                                                    <!--FORMULÁRIO-->
+                                                </div>
+                                                <!--COLUNA LATERAL DO FORMULÁRIO-->
+                                                <div class="col-1" id="form-socialmedias">
+                                                    <div class="row mb-0">
+                                                        <a href="#" class="pt-3">
+                                                            <i class="bi bi-telegram"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="bi bi-linkedin"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="bi bi-facebook"></i>
+                                                        </a>
+                                                        <a href="#">
+                                                            <i class="bi bi-instagram"></i>
+                                                        </a> 
+                                                        <a href="#">
+                                                            <i class="bi bi-whatsapp"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="row">
+                                                        <h3 class="pt-5">
+                                                            <i class="bi bi-buildings"></i>
+                                                        </h3>
+                                                        <h3>H</h3>
+                                                        <h3>e</h3>
+                                                        <h3>a</h3>
+                                                        <h3>v</h3>
+                                                        <h3>y</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6" id="carousel2">
+                    <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel-slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="4000">
+                                <img src="./imagem/qualidade-na-construcao.jpg" alt="">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="./imagem/escavadeira.jpg" alt="">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="4000">
+                                <img src="./imagem/arquitetura.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title-section">
+                <h2 class="fw-bold">O que nos diferencia das</h2>
+                <h2 class="fw-bold">outras companhias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dicta laudantium eaque adipisci placeat molestias unde, exercitationem cum nemo commodi.</p>
+            </div>
+            <div class="row">
+
+                <!--CARD 1-->
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="my-card bg-preto rounded">
+                        <div class="my-card-figure">
+                            <i class="bi bi-buildings fs-1"></i>
+                        </div>
+                        <div class="my-card-title">
+                            <h3>Responsabilidade</h3>
+                        </div>
+                        <div class="my-card-text">
+                            <p>Transformando o ambiente de forma responsável criamos um mundo melhor.</p>
+                        </div>
+                        <button type="button" class="btn btn-5" data-bs-toggle="modal" data-bs-target="#modal-building">Saiba mais</button>
+                    </div>
+                </div>
+                <!--CARD 1-->
+
+                <!--MODAL CARD 1-->
+                <div class="modal" id="modal-building" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-content2">
+                            <div class="modal-header bg-preto">
+                                <h5>CONSTRUINDO COM RESPONSABILIDADE</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-preto">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/Construindo-sustentabilidade.jpeg" alt="">
+                                    </div>
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae voluptates quasi saepe error! Veniam modi facere reprehenderit dolore quos fugiat! Obcaecati adipisci blanditiis commodi voluptatem officiis distinctio dolor reprehenderit.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi accusantium autem harum laudantium, culpa expedita provident explicabo ea. Consectetur, sit. Suscipit ipsa nam aut facere at! Dolorem, error quod?</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/beneficios.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal-footer bg-preto mt-3">
+                                    <button class="btn fs-5 fc-white" data-bs-toggle="modal" data-bs-target="#modal-building2" type="button">
+                                        Próximo
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--MODAL CARD 1B-->
+                <div class="modal" id="modal-building2" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-content2">
+                            <div class="modal-header bg-preto">
+                                <h5>CONSTRUINDO COM RESPONSABILIDADE</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-preto">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/trator-esteira-modal.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae voluptates quasi saepe error! Veniam modi facere reprehenderit dolore quos fugiat! Obcaecati adipisci blanditiis commodi voluptatem officiis distinctio dolor reprehenderit.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi accusantium autem harum laudantium, culpa expedita provident explicabo ea. Consectetur, sit. Suscipit ipsa nam aut facere at! Dolorem, error quod?</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/escavadeira-carregamento-modal.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal-footer bg-preto mt-3">
+                                    <button class="btn fs-5 fc-white" data-bs-toggle="modal" data-bs-target="#modal-building" type="button">
+                                        <i class="bi bi-arrow-left-circle"></i>
+                                        Anterior
+                                    </button>
+                                    <button class="btn fs-5 fc-white" data-bs-toggle="modal" data-bs-target="#modal-building3" type="button">
+                                        Próximo
+                                        <i class="bi bi-arrow-right-circle"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--MODAL CARD 1C-->
+                <div class="modal" id="modal-building3" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-content2">
+                            <div class="modal-header bg-preto">
+                                <h5>CONSTRUINDO COM RESPONSABILIDADE</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-preto">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img class="img-size-modal" class="img-size-modal-col-3" src="./imagem/construcao-civil.jpg" alt="">
+                                    </div>
+                                    <div class="col-6 d-table">
+                                        <img class="img-size-modal" class="img-size-modal-col-3" src="./imagem/barragem-de-uma-usina-hidreletrica.webp" alt="">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12 d-table">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi accusantium autem harum laudantium, culpa expedita provident explicabo ea. Consectetur, sit. Suscipit ipsa nam aut facere at! Dolorem, error quod?</p>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias consectetur dicta reiciendis atque quod molestiae est nobis vero fugit, voluptatibus commodi ducimus voluptas itaque porro, enim recusandae! Dolore, unde vitae.</p>
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <img class="img-size-modal-one" src="./imagem/construcao-rodovia.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ea cum mollitia ut. Dolor perferendis adipisci quisquam, et facere amet delectus sequi ex totam sapiente recusandae aspernatur accusantium ab non.
+                                        </p>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis deleniti laudantium, praesentium atque maxime libero dolor excepturi fugiat sunt alias, facere quaerat, distinctio ullam quasi itaque doloribus possimus eum ratione.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer bg-preto mt-3">
+                                    <button class="btn fs-5 fc-white" data-bs-toggle="modal" data-bs-target="#modal-building2" type="button">
+                                        <i class="bi bi-arrow-left-circle"></i>
+                                        Anterior
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 2-->
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="my-card bg-amarelo rounded">
+                        <div class="my-card-figure">
+                            <i class="bi bi-graph-up-arrow fs-1"></i>
+                        </div>
+                        <div class="my-card-title">
+                            <h3>Resultados</h3>
+                        </div>
+                        <div class="my-card-text">
+                            <p>Nosso objetivo é entregar um resultado positivo e crescente ao cliente.</p>
+                        </div>
+                        <button type="button" class="btn btn-4" data-bs-toggle="modal" data-bs-target="#modal-results">Saiba mais</button>
+                    </div>
+                </div>
+
+                <!--MODAL CARD 2-->
+                <div class="modal" id="modal-results" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-content2">
+                            <div class="modal-header bg-amarelo">
+                                <h5>ENTREGANDO RESULTADOS E ACRESCENTANDO VALOR</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-amarelo">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/entregando-resultado.png" alt="">
+                                    </div>
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae voluptates quasi saepe error! Veniam modi facere reprehenderit dolore quos fugiat! Obcaecati adipisci blanditiis commodi voluptatem officiis distinctio dolor reprehenderit.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi accusantium autem harum laudantium, culpa expedita provident explicabo ea. Consectetur, sit. Suscipit ipsa nam aut facere at! Dolorem, error quod?</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/Resultados-Financeiros.webp" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal-footer bg-amarelo mt-3">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 3-->
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="my-card bg-preto rounded">
+                        <div class="my-card-figure">
+                            <i class="bi bi-clipboard-data fs-1"></i>
+                        </div>
+                        <div class="my-card-title">
+                            <h3>Organização</h3>
+                        </div>
+                        <div class="my-card-text">
+                            <p>A organização por dados matemáticos nos tornam menos sussetiveis a erros.</p>
+                        </div>
+                        <button type="button" class="btn btn-5" data-bs-toggle="modal" data-bs-target="#modal-organization">Saiba mais</button>
+                    </div>
+                </div>
+
+                <!--MODAL CARD 3-->
+                <div class="modal" id="modal-organization" data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-content2">
+                            <div class="modal-header bg-preto">
+                                <h5>A ORGANIZAÇÃO TRAZ OS MELHORES RESULTADOS</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body bg-preto">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/gestao.png" alt="">
+                                    </div>
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae voluptates quasi saepe error! Veniam modi facere reprehenderit dolore quos fugiat! Obcaecati adipisci blanditiis commodi voluptatem officiis distinctio dolor reprehenderit.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 d-table">
+                                        <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi accusantium autem harum laudantium, culpa expedita provident explicabo ea. Consectetur, sit. Suscipit ipsa nam aut facere at! Dolorem, error quod?</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <img class="img-size-modal" src="./imagem/organizacao.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="modal-footer bg-preto mt-3">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--CARD 4-->
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="my-card bg-amarelo rounded">
+                        <div class="my-card-figure">
+                            <i class="bi bi-people fs-1"></i>
+                        </div>
+                        <div class="my-card-title">
+                            <h3>Pessoas</h3>
+                        </div>
+                        <div class="my-card-text">
+                            <p>Valorizando pessoas nos tornamos mais comprometidos com a comunidade.</p>
+                        </div>
+                        <button type="button" class="btn btn-4" data-bs-toggle="modal" data-bs-target="#modal-people">Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--MODAL CARD 4-->
+            <div class="modal" id="modal-people" data-bs-backdrop="static">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-content2">
+                        <div class="modal-header bg-amarelo">
+                            <h5>VALORIZANDO PESSOAS E ACREDITANDO NA HUMANIDADE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body bg-amarelo">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="img-size-modal" src="./imagem/importancia-de-valorizar-as-pessoas.jpg" alt="">
+                                </div>
+                                <div class="col-6 d-table">
+                                    <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae voluptates quasi saepe error! Veniam modi facere reprehenderit dolore quos fugiat! Obcaecati adipisci blanditiis commodi voluptatem officiis distinctio dolor reprehenderit.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 d-table">
+                                    <p class="align-vertical">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nisi accusantium autem harum laudantium, culpa expedita provident explicabo ea. Consectetur, sit. Suscipit ipsa nam aut facere at! Dolorem, error quod?</p>
+                                </div>
+                                <div class="col-6">
+                                    <img class="img-size-modal" src="./imagem/comunidade.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="modal-footer bg-amarelo mt-3">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row artigo-1">
+                <div class="col-12">
+                    <h3>Lorem</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium vitae quod commodi eveniet eaque itaque optio illo, reprehenderit possimus fuga voluptas, totam, temporibus maxime? Exercitationem quisquam adipisci ab ipsum amet?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique dolor, dolorem placeat deserunt labore quia delectus debitis ex facere ratione, praesentium, amet fugit harum dolorum. Veritatis quam provident optio ducimus.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <!--SEÇÃO NOSSOS EQUIPAMENTOS-->
+    <div id="equipament">
+        <div class="container">
+            <h2 class="fw-bold title-section pt-4">NOSSOS EQUIPAMENTOS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam placeat voluptatum iste, nemo tenetur quae et eius reiciendis accusamus mollitia eos illum quaerat libero vitae incidunt corrupti quasi tempore. Odit?</p>
+            <button type="button" class="btn btn-1" id="btn-equipamentos">
+                Detalhes
+            </button>
+        </div>
+    </div>
+    <section class="out-header p-5 bg-yellow" id="equipamentos">
+        <div class="container">
+            <!--EQUIPAMENTOS LINHA 1 MÁQUINAS-->
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/escavadeira.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Escavadeira hidráulica</h4>
+                            <a href="#" class="btn btn-1 mt-4">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/carregadeira.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Carregadeira</h4>
+                            <a href="#" class="btn btn-1 mt-5">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/motoniveladora.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Motoniveladora</h4>
+                            <a href="#" class="btn btn-1 mt-5">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/rolo-compactador.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Rolo compactador</h4>
+                            <a href="#" class="btn btn-1 mt-5">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--EQUIPAMENTOS LINHA 2 - CAMINHÕES-->
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/caminhão-fora-estrada.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Caminhões fora de estrada</h4>
+                            <a href="#" class="btn btn-1 mt-4">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/caminhao-betoneira.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Caminhão betoneira</h4>
+                            <a href="#" class="btn btn-1 mt-5">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/caminhao-cacamba.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Caminhões caçamba</h4>
+                            <a href="#" class="btn btn-1 mt-5">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card text-bg-dark">
+                        <img src="./imagem/equip/guindaste.png">
+                        <div class="card-img-overlay">
+                            <h4 class="card-title">Guindaste</h4>
+                            <a href="#" class="btn btn-1 mt-5">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--ARTIGO SEÇÃO EQUIPAMENTOS-->
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-6 col-lg-6 artigo-bg-translucid-1">
+                    <h3>Lorem</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati dolorum ratione est. Rem delectus sapiente nobis. Amet atque debitis quisquam, voluptatem ratione saepe beatae perspiciatis accusantium! Officiis, voluptates possimus?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio omnis molestias rerum exercitationem dolor cumque in itaque? Tempora nihil accusantium dignissimos iure delectus non dolore tempore sunt! Nobis, quibusdam dignissimos?
+                    </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 artigo-btn d-table">
+                    <div class="align-vertical">
+                        <h3>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                        </h3>
+                        <ul class="social-media-artigo">
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-telegram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                            <h5 class="mt-3">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h5>
+                            <p>
+                                Rua: Engenheiro Front End, 2023 - Bootstrap Icon - Ebac
+                            </p>
+                    </div>
+                    <div class="botoes">
+                        <div class="botoes-fi">
+                            <button class="btn btn-2 mt-3 me-2" type="button" data-bs-toggle="modal" data-bs-target="#contact-modal">
+                                Entrar em contato
+                            </button>
+                            <button type="button" class="btn btn-2 mt-3" id="btn-close-equip">
+                                Fechar
+                                <i class="bi bi-x-lg"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="equipament-2"></div>
+
+    <!--SEÇÃO VENHA ATÉ NÓS-->
+    <div class="bg-cinza">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 fachada-empresa">
+                    <img src="./imagem/fachada-empresa.jpg" alt="">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 artigo-2 d-table">
+                    <div class="align-vertical">
+                        <h3>Venha até nós</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt sunt illum vero culpa officiis adipisci laborum impedit omnis, saepe est quam. Optio fuga quisquam incidunt temporibus aperiam ratione. Eos, explicabo.
+                    </p>
+                    <h5 class="mt-5">
+                        <i class="bi bi-cursor-fill"></i>
+                        Endereço
+                    </h5>
+                    <p>
+                        Rua: Engenheiro Front End, 2023 - Bootstrap Icon - Ebac
+                    </p>
+                    <ul class="social-media-artigo mt-5">
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-telegram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--RODAPÉ-->
+    <footer class="footer mt-5">
+        <div class="bar-footer"></div>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-sm-12 col-md-3 col-lg-3 d-table">
+                    <h3 class="align-vertical">Heavy work</h3>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="footer-links p-2">
+                        <ul>
+                            <li>
+                                <h5>Links</h5>
+                            </li>
+                            <li>
+                                <a href="#">Equipamentos pesados</a>
+                            </li>
+                            <li>
+                                <a href="#">Equipamentos leves</a>
+                            </li>
+                            <li>
+                                <a href="#">Materiais de construção</a>
+                            </li>
+                            <li>
+                                <a href="#">Construtores</a>
+                            </li>
+                            <li>
+                                <a href="#">Empresas de engenharia</a>
+                            </li>
+                            <li>
+                                <a href="#">Empresas de arquitetura</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 d-table">
+                    <div class="footer-links-2 align-vertical">
+                        <ul>
+                            <li>
+                                <a href="#">SUPORTE</a>
+                            </li>
+                            <li>
+                                <a href="#home">HOME</a>
+                            </li>
+                            <li>
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#contact-modal">
+                                    CONTATO
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="footer-artigo">
+                        <h5>Lorem</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem fugit, unde repellendus odit natus animi blanditiis, a tenetur nostrum ipsa atque explicabo ad at cumque tempore aliquam minus fugiat totam?
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-telegram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down-bar-footer">
+            <div class="container">
+                <p class="d-flex justify-content-center">
+                    &copy;Alex Faustino 2023 - Todos os direitos reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

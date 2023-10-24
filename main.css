@@ -1,0 +1,637 @@
+header {
+    font-family: 'Baumans', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2E2E2E;
+}
+
+/*---------------------------------------------------------BOTÕES-------------------------------------------------------*/
+
+.btn-1 {
+    background-color: rgba(253, 250, 250, 0);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-1:hover {
+    background-color: rgba(253, 250, 250, 0.2);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-2 {
+    background-color: rgba(253, 250, 250, 0);
+    color: #2E2E2E;
+    border: 1px solid #2E2E2E;
+}
+
+.btn-2:hover {
+    background-color: rgba(253, 250, 250, 0.2);
+    color: #000;
+    border: 1px solid #2E2E2E;
+}
+
+.btn-3 {
+    background-color: rgba(250, 226, 14, 0.4);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-3:hover {
+    background-color: rgba(250, 226, 14, 0.6);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-4 {
+    background-color: #ffe740;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.btn-4:hover {
+    background-color: #2E2E2E;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.btn-5 {
+    background-color: #2E2E2E;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-5:hover {
+    background-color: #ffe740;
+    color: #000;
+    border: 1px solid #fff;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------CORES DE FONTE-------------------------------------------------------*/
+.fc-white {
+    color: #fff;
+}
+
+.fc-yellow {
+    color: #ffe740;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+.text-destac-md {
+    font-size: 73px;
+    color: #ebe9e9;
+}
+
+.text-destac-sm {
+    font-size: 54px;
+    color: #ffe740;
+}
+
+.text-destac p {
+    line-height: 53px;
+}
+
+.text-p {
+    text-align: justify;
+}
+
+.upside-bar {
+    display: none;
+    background-color: #000;
+}
+
+.upside {
+    color: #857474;
+}
+
+.social-media a {
+    margin-top: 4px;
+    color: #857474;
+    text-decoration: none;
+}
+
+.bi-instagram {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.bi-linkedin {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.navbar {
+    background-color: #ffe740;
+}
+
+.nav-link,
+.dropdown .nav-link{
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.dropdown a{
+    text-decoration: none;
+}
+
+.dropdown-item a{
+    color: #fff;
+}
+
+.dropdown-menu p {
+    background-color: #ffe740;
+    color: #000;
+}
+
+.col-4 {
+    background-color: #000;
+    color: #fff;
+}
+
+#about {
+    background-image: url(./imagem/trator.png);
+    width: 100%;
+    height: 520px;
+}
+
+#about {
+    color: #fff;
+}
+
+#about img {
+    width: 100%;
+    height: 590px;
+}
+
+#sobre-o-site, 
+.artigo-1 {
+    background-color: #e7e5e5;
+}
+
+#carousel2 img {
+    width: 100%;
+    height: 466px;
+    border-radius: 6px;
+}
+
+.card {
+    background-color: #2E2E2E;
+    color: #fff;
+}
+
+#formulario {
+    background-color: #ffe740;
+    color: #000;
+}
+
+
+#form-socialmedias {
+    background-color: #000;
+}
+
+#form-socialmedias h3 {
+    color: #ffe740;
+    text-align: center;
+}
+
+#form-socialmedias a {
+    margin-top: 4px;
+    color: #857474;
+    text-decoration: none;
+    text-align: center;
+}
+
+#offer {
+    color: #000;
+}
+
+.modal-content {
+    width: 640px;
+}
+
+.my-card {
+    text-align: center;
+    padding: 1em;
+}
+
+.bg-amarelo {
+    background-color: #ffe740;
+    color: #000;
+}
+
+.bg-preto {
+    background-color: #2E2E2E;
+    color: #fff;
+}
+
+.my-card-figure {
+    margin-top: 1em;
+}
+
+.my-card-title {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.title-section {
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 3em;
+    padding-top: 2em;
+    border-top: 1px solid #2E2E2E;
+}
+
+.title-section h2 {
+    line-height: 0.8em;
+    text-transform: uppercase;
+}
+
+.bg-yellow {
+    background-color: #ffe740;
+}
+
+.img-size-modal {
+    width: 280px;
+    height: 280px;
+}
+
+.img-size-modal-one {
+    width: 100%;
+    height: 240px;
+}
+
+.d-table {
+    display: table;
+}
+
+.align-vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#equipament {
+    background-image:url(./imagem/maquina-trabalhando-1b.png);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#equipament-2 {
+    background-image:url(./imagem/maquinas-trabalhando-1.png);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    top: 0;
+}
+
+#equipament h2{
+    margin: 0.3em;
+    color: #fff;
+}
+
+#equipament p {
+    color: #fff;
+}
+
+#equipamentos .card img {
+    width: 100%;
+    height: 280px;
+}
+
+#equipamentos {
+    display: none;
+}
+
+.artigo-bg-translucid-1 {
+    background-color: rgba(0,0,0,0);
+    color: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: justify;
+}
+
+.artigo-btn {
+    position: relative;
+    text-align: center;
+}
+
+.botoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.social-media-artigo li {
+    list-style: none;
+    display: inline;
+}
+
+.social-media-artigo a {
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+#equipamentos {
+    position: relative;
+}
+
+#equipamentos .card a {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+.artigo-1 {
+    margin-top: 7em;
+    margin-bottom: 3em;
+    text-align: center;
+    border-top: 1px solid #2E2E2E;
+    border-bottom: 1px solid #2E2E2E;
+}
+
+.artigo-2 {
+    margin-top: 5em;
+    margin-bottom: 3em;
+    text-align: center;
+    border: 2px solid #ffe740;
+    height: 466px;
+}
+
+.fachada-empresa img {
+    margin-top: 5em;
+    margin-bottom: 3em;
+    max-width: 100%;
+    height: 466px;
+}
+
+.bg-cinza,
+.bg-cinza a {
+    background-color: #2E2E2E;
+    color: #fff;
+}
+
+.bg-cinza {
+    margin-top: -1px;
+}
+
+.bar-footer {
+    border-top: 3px solid #ffe740;
+}
+
+.down-bar-footer {
+    background-color: #ffe740;
+    color: #000;
+    width: 100%;
+    height: 30px;
+    font-size: 1.5em;
+    padding-top: 3px;
+}
+
+footer {
+    font-family: 'Baumans', cursive;
+    font-size: 0.7em;
+    color: #ffe740;
+}
+
+footer ul {
+    left: 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #857474;
+}
+
+.footer-links {
+    text-align: left;
+    color: #857474;
+}
+
+.footer-links-2 {
+    position: relative;
+}
+
+.footer-links-2 ul {
+    position: absolute;
+    left: -50px;
+}
+
+.footer-links-2 ul li {
+    padding: 8px;
+    display: inline;
+}
+
+.footer-artigo {
+    color: #857474;
+}
+
+.footer-artigo ul li{
+    display: inline;
+    list-style: none;
+}
+
+.footer-artigo ul li a {
+    text-decoration: none;
+}
+
+footer button {
+    background-color: #2E2E2E;
+    border: none;
+    color: #857474;
+}
+
+
+@media screen and (max-width: 767px) {
+    #upsidebar-address {
+        font-size: 8px;
+    }
+
+    .upsidebar-social a {
+        font-size: 10px;
+        color: #857474;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    .nav-item a {
+        font-size: 14px;
+    }
+
+    .apresentacao {
+        position: relative;
+        
+    }
+
+    .apresentacao img {
+        position: absolute;
+        left: -20px;
+    }
+
+    .texto-apresentacao {
+        position: absolute;
+        right: 38px;
+    }
+
+    .text-destac-md {
+        font-size: 40px;
+    }
+
+    .text-destac p {
+        line-height: 30px;
+    }
+
+    .text-destac-sm {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .text-p {
+        font-size: 11px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .artigo-o-que-fazemos {
+        margin-bottom: 10px;
+    }
+
+    .formulario {
+        width: 50%;
+    }
+
+    .my-card {
+        margin: 10px auto;
+    }
+
+    .modal-content2 {
+        width: 340px;
+    }
+
+    .modal p {
+        font-size: 10px;
+    }
+
+    .img-size-modal {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .img-size-modal-one {
+        width: 100%;
+        height: 240px;
+    }
+
+    #equipamentos .card {
+        margin: 10px auto;
+    }
+
+    .artigo-btn {
+        margin-top: 10px;
+    }
+
+    .botoes {
+        position: relative;
+    }
+
+    .botoes-fi {
+        position: absolute;
+        bottom: -200px;
+        left: -220px;
+    }
+
+    .bi-cursor-fill p {
+        font-size: 8;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer h3 {
+        padding: 16px;
+    }
+
+    .footer li {
+        text-align: center;
+    }
+
+    .footer-links-2 {
+        position: relative;
+    }
+    
+    .footer-links-2 ul {
+        position: absolute;
+        left: 50px;
+    }
+
+    .footer-artigo {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .down-bar-footer p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #upsidebar-address {
+        font-size: 12px;
+    }
+
+    .upsidebar-social a {
+        font-size: 12px;
+    }
+    
+    .my-card {
+        margin: 10px auto;
+        width: 300px;
+    }
+
+    .text-destac-md {
+        font-size: 62px;
+    }
+
+    .text-destac p {
+        line-height: 40px;
+    }
+
+    .text-destac-sm {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .text-p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .footer-links-2 {
+        font-size: 9px;
+        padding: 4px;
+    }
+}
+
